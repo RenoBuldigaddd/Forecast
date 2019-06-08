@@ -1,0 +1,22 @@
+﻿<Window x:Class="FutureForecast.Present_Forecast"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FutureForecast"
+        mc:Ignorable="d"
+        Title="Present_Forecast" Height="264" Width="549" FontFamily="Global Monospace" FontSize="16">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Height="211" Margin="138,10,0,0" VerticalAlignment="Top" Width="391"/>
+        <GroupBox Header="Valuta" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="123" Margin="10,10,0,0">
+            <Grid HorizontalAlignment="Left" Height="128" Margin="-10,-5,-2,-16" VerticalAlignment="Top" Width="123">
+                <Button x:Name="btnDollar" Content="Dollar" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" Width="102" Click="BtnDollar_Click"/>
+                <Button x:Name="btnEuro" Content="Euro" HorizontalAlignment="Left" Margin="12,38,0,0" VerticalAlignment="Top" Width="102"/>
+                <Button x:Name="btnGrivna" Content="Grivna" HorizontalAlignment="Left" Margin="12,66,0,0" VerticalAlignment="Top" Width="102"/>
+                <Button x:Name="btnRubl" Content="Rub" HorizontalAlignment="Left" Margin="12,94,0,0" VerticalAlignment="Top" Width="102"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="10,198,0,0" VerticalAlignment="Top" Width="123" Click="BtnBack_Click"/>
+
+    </Grid>
+</Window>
